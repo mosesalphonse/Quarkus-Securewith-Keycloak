@@ -95,3 +95,5 @@ kubectl delete -f target/kubernetes/kubernetes.yml // undeploy this quarkus appl
 
 kubectl delete -f https://raw.githubusercontent.com/keycloak/keycloak-quickstarts/latest/kubernetes-examples/keycloak.yaml // undeploy this Keycloak
 ```
+
+Note: This code was tested in Google Kubernetes Platform
