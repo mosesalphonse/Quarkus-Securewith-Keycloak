@@ -1,0 +1,6 @@
+org/sash/security/keycloak/authorization/SashResource.class
+org/sash/security/keycloak/authorization/UserResource$User.class
+org/sash/security/keycloak/authorization/TestResource.class
+org/sash/security/keycloak/authorization/PublicResource.class
+org/sash/security/keycloak/authorization/UserResource.class
+org/sash/security/keycloak/authorization/AdminResource.class

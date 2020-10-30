@@ -1,0 +1,79 @@
+Manifest-Version: 1.0
+Class-Path:  lib/org.keycloak.keycloak-adapter-core-11.0.1.jar lib/com.s
+ un.activation.jakarta.activation-1.2.1.jar lib/org.keycloak.keycloak-co
+ mmon-11.0.1.jar lib/org.bouncycastle.bcprov-jdk15on-1.65.jar lib/org.bo
+ uncycastle.bcpkix-jdk15on-1.65.jar lib/com.fasterxml.jackson.core.jacks
+ on-core-2.11.3.jar lib/com.fasterxml.jackson.core.jackson-annotations-2
+ .11.3.jar lib/com.fasterxml.jackson.core.jackson-databind-2.11.3.jar li
+ b/org.keycloak.keycloak-core-11.0.1.jar lib/org.keycloak.keycloak-adapt
+ er-spi-11.0.1.jar lib/org.jboss.logging.jboss-logging-3.4.1.Final.jar l
+ ib/org.apache.httpcomponents.httpcore-4.4.13.jar lib/commons-codec.comm
+ ons-codec-1.14.jar lib/org.apache.httpcomponents.httpclient-4.5.13.jar 
+ lib/org.keycloak.keycloak-authz-client-11.0.1.jar lib/org.jboss.logging
+ .commons-logging-jboss-logging-1.0.0.Final.jar lib/io.quarkus.quarkus-k
+ eycloak-authorization-1.9.1.Final.jar lib/jakarta.el.jakarta.el-api-3.0
+ .3.jar lib/jakarta.enterprise.jakarta.enterprise.cdi-api-2.0.2.jar lib/
+ jakarta.inject.jakarta.inject-api-1.0.jar lib/io.quarkus.quarkus-develo
+ pment-mode-spi-1.9.1.Final.jar lib/io.smallrye.common.smallrye-common-a
+ nnotation-1.4.0.jar lib/io.smallrye.config.smallrye-config-common-1.9.3
+ .jar lib/io.smallrye.common.smallrye-common-function-1.4.0.jar lib/io.s
+ mallrye.common.smallrye-common-expression-1.4.0.jar lib/io.smallrye.com
+ mon.smallrye-common-constraint-1.4.0.jar lib/io.smallrye.common.smallry
+ e-common-classloader-1.4.0.jar lib/org.ow2.asm.asm-8.0.1.jar lib/io.sma
+ llrye.config.smallrye-config-1.9.3.jar lib/org.jboss.logmanager.jboss-l
+ ogmanager-embedded-1.0.5.jar lib/org.jboss.logging.jboss-logging-annota
+ tions-2.1.0.Final.jar lib/org.jboss.threads.jboss-threads-3.1.1.Final.j
+ ar lib/org.slf4j.slf4j-api-1.7.30.jar lib/org.jboss.slf4j.slf4j-jboss-l
+ ogging-1.2.0.Final.jar lib/org.graalvm.sdk.graal-sdk-20.2.0.jar lib/org
+ .wildfly.common.wildfly-common-1.5.4.Final-format-001.jar lib/io.quarku
+ s.quarkus-bootstrap-runner-1.9.1.Final.jar lib/io.quarkus.quarkus-core-
+ 1.9.1.Final.jar lib/jakarta.transaction.jakarta.transaction-api-1.3.3.j
+ ar lib/io.quarkus.arc.arc-1.9.1.Final.jar lib/org.eclipse.microprofile.
+ context-propagation.microprofile-context-propagation-api-1.0.1.jar lib/
+ io.quarkus.quarkus-arc-1.9.1.Final.jar lib/io.netty.netty-codec-4.1.49.
+ Final.jar lib/io.netty.netty-handler-4.1.49.Final.jar lib/io.quarkus.qu
+ arkus-netty-1.9.1.Final.jar lib/io.netty.netty-common-4.1.49.Final.jar 
+ lib/io.netty.netty-buffer-4.1.49.Final.jar lib/io.netty.netty-transport
+ -4.1.49.Final.jar lib/io.netty.netty-codec-socks-4.1.49.Final.jar lib/i
+ o.netty.netty-handler-proxy-4.1.49.Final.jar lib/io.netty.netty-codec-h
+ ttp-4.1.49.Final.jar lib/io.netty.netty-codec-http2-4.1.49.Final.jar li
+ b/io.netty.netty-resolver-4.1.49.Final.jar lib/io.netty.netty-codec-dns
+ -4.1.49.Final.jar lib/io.netty.netty-resolver-dns-4.1.49.Final.jar lib/
+ io.vertx.vertx-core-3.9.4.jar lib/io.quarkus.quarkus-vertx-core-1.9.1.F
+ inal.jar lib/io.quarkus.quarkus-security-runtime-spi-1.9.1.Final.jar li
+ b/org.reactivestreams.reactive-streams-1.0.3.jar lib/io.smallrye.reacti
+ ve.mutiny-0.9.0.jar lib/io.quarkus.security.quarkus-security-1.1.3.Fina
+ l.jar lib/io.vertx.vertx-web-common-3.9.4.jar lib/io.vertx.vertx-bridge
+ -common-3.9.4.jar lib/io.vertx.vertx-web-3.9.4.jar lib/io.quarkus.quark
+ us-vertx-http-1.9.1.Final.jar lib/jakarta.interceptor.jakarta.intercept
+ or-api-1.2.5.jar lib/io.quarkus.quarkus-security-1.9.1.Final.jar lib/or
+ g.glassfish.jakarta.json-1.1.6.jar lib/io.quarkus.quarkus-jsonp-1.9.1.F
+ inal.jar lib/org.eclipse.microprofile.config.microprofile-config-api-1.
+ 4.jar lib/org.eclipse.microprofile.jwt.microprofile-jwt-auth-api-1.1.1.
+ jar lib/org.bitbucket.b_c.jose4j-0.7.2.jar lib/io.smallrye.smallrye-jwt
+ -2.3.1.jar lib/jakarta.annotation.jakarta.annotation-api-1.3.5.jar lib/
+ io.vertx.vertx-auth-common-3.9.4.jar lib/io.vertx.vertx-jwt-3.9.4.jar l
+ ib/io.vertx.vertx-auth-oauth2-3.9.4.jar lib/com.fasterxml.jackson.datat
+ ype.jackson-datatype-jsr310-2.11.3.jar lib/com.fasterxml.jackson.dataty
+ pe.jackson-datatype-jdk8-2.11.3.jar lib/com.fasterxml.jackson.module.ja
+ ckson-module-parameter-names-2.11.3.jar lib/io.quarkus.quarkus-jackson-
+ 1.9.1.Final.jar lib/io.quarkus.quarkus-oidc-1.9.1.Final.jar lib/org.jbo
+ ss.spec.javax.ws.rs.jboss-jaxrs-api_2.1_spec-2.0.1.Final.jar lib/org.jb
+ oss.spec.javax.xml.bind.jboss-jaxb-api_2.3_spec-2.0.0.Final.jar lib/org
+ .jboss.resteasy.resteasy-core-spi-4.5.8.Final.jar lib/com.ibm.async.asy
+ ncutil-0.1.0.jar lib/org.jboss.resteasy.resteasy-core-4.5.8.Final.jar l
+ ib/io.quarkus.quarkus-resteasy-common-1.9.1.Final.jar lib/jakarta.valid
+ ation.jakarta.validation-api-2.0.2.jar lib/io.quarkus.quarkus-resteasy-
+ server-common-1.9.1.Final.jar lib/io.quarkus.quarkus-resteasy-1.9.1.Fin
+ al.jar lib/org.eclipse.yasson-1.0.8.jar lib/io.quarkus.quarkus-jsonb-1.
+ 9.1.Final.jar lib/jakarta.json.bind.jakarta.json.bind-api-1.0.2.jar lib
+ /org.jboss.resteasy.resteasy-json-binding-provider-4.5.8.Final.jar lib/
+ org.jboss.resteasy.resteasy-json-p-provider-4.5.8.Final.jar lib/commons
+ -io.commons-io-2.8.0.jar lib/io.quarkus.quarkus-resteasy-jsonb-1.9.1.Fi
+ nal.jar lib/io.quarkus.quarkus-kubernetes-client-internal-1.9.1.Final.j
+ ar lib/io.quarkus.quarkus-kubernetes-1.9.1.Final.jar lib/io.quarkus.qua
+ rkus-container-image-jib-1.9.1.Final.jar
+Main-Class: io.quarkus.runner.GeneratedMain
+Implementation-Title: security-keycloak-authorization-demo
+Implementation-Version: 1.0-SNAPSHOT
+
