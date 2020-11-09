@@ -47,8 +47,8 @@ kubectl create -f target/kubernetes/kubernetes.yml // Deploy into kubernetes clu
 ```
 Step 1: Test Unprotected Endpoint
 
-curl http://34.70.21.16:8080/api/public
-curl http://34.70.21.16:8080/api/test
+curl http://{keycloak:port}/api/public
+curl http://{keycloak:port}/api/test
 
 Step 2: Test protected Endpoint with User Role
 
