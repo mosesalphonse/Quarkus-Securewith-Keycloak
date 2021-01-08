@@ -7,7 +7,7 @@ This demo uses Keycloak, which is Open Source Identity and Access Management Ser
 
 ```
 1) Deploy Keycloak on Kubernetes Cluster and configure Realm
-2) Build, Deploy and product JAX-RS Endpoint using Keycloak
+2) Build and Deploy workload by protecting JAX-RS Endpoint using Keycloak
 3) Test JAX-RS Endpoints
 4) Uninstall the setup
 ```
